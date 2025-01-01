@@ -1,3 +1,10 @@
+:root {
+    --background-dark: #1f2937;
+    --button-color: #3882f6;
+    --background-light: white;
+    --subtext: #a6a9af;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -15,15 +22,15 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1f2937;
-    color: white;
+    background-color: var(--background-dark);
+    color: var(--background-light);
     align-items: center;
 }
 
 
 .logo {
     font-size: 24px;
-    color: white;
+    color: var(--background-light);
 }
 
 ul {
@@ -34,20 +41,20 @@ ul {
 
 a {
     font-size: 18px;
-    color: #a6a9af
+    color: var(--subtext)
 }
 
 .under-header {
     display: flex;
-    background-color: #1f2937;
-    color: white;
+    background-color: var(--background-dark);;
+    color: var(--background-light);
     padding-bottom: 50px;
     gap: 40px;
 }
 
 .next-to-image .sign-up-button {
-    background-color: #3882f6;
-    color: white;
+    background-color: var(--button-color);
+    color: var(--background-light);
     font-weight: bold;
     border-style: none;
     border-radius: 10px;
@@ -74,7 +81,7 @@ a {
 
 .next-to-image p {
     font-size: 18px;
-    color: #a6a9af;
+    color: var(--subtext);
     margin-top: 0px;
 }
 
@@ -111,7 +118,7 @@ a {
     border-style: solid;
     border-width: 4px;
     border-radius: 8px;
-    border-color: #3882f6;
+    border-color: var(--button-color);
 }
 
 .card-text {
@@ -127,7 +134,7 @@ a {
 .quote {
     display: flex;
     flex-direction: column;
-    background-color: #e5e7eb;
+    background-color: var(--background-light);
     padding: 50px;
 }
 
@@ -160,7 +167,7 @@ a {
 }
 
 .blue-container {
-    background-color: #3882f6;
+    background-color: var(--button-color);
     display: flex;
     padding: 30px 60px;
     width: 50%;
@@ -176,29 +183,29 @@ a {
 }
 
 .button-container button {
-    background-color: #3882f6;
-    color: white;
+    background-color: var(--button-color);
+    color: var(--background-light);
     font-weight: bold;
     border-style: solid;
     border-radius: 10px;
     padding: 10px 20px;
-    border-color: white;
+    border-color: var(--background-light);
 }
 
 .next-to-button h3 {
-    color: white;
+    color: var(--background-light);
 }
 
 .next-to-button p {
-    color: white;
+    color: var(--background-light);
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
-    color: white;
+    background-color: var(--background-dark);
+    color: var(--background-light);
 }
 
 .copyright {
